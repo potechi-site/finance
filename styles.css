@@ -1,0 +1,41 @@
+/* テーマカラーを緑色に設定 */
+body {
+    border-top: 5px solid #4CAF50;
+    border-bottom: 5px solid #4CAF50;
+}
+
+/* リンクの色を緑色に設定 */
+a {
+    color: #4CAF50;
+}
+
+/* リンクホバー時の色を明るい緑色に設定 */
+a:hover {
+    color: #8BC34A;
+}
+/* バックカラーを白色に設定 */
+body {
+    background: #fff;
+}
+
+/* テーマカラーを緑色に設定 */
+body {
+    border-top: 5px solid #4CAF50;
+    border-bottom: 5px solid #4CAF50;
+    color: #333; /* テキストの色を黒に設定 */
+}
+
+/* リンクの色を緑色に設定 */
+a {
+    color: #4CAF50;
+}
+
+/* リンクホバー時の色を明るい緑色に設定 */
+a:hover {
+    color: #8BC34A;
+}
+
+/* バックカラーを白色に設定 */
+body {
+    background: #fff;
+}
