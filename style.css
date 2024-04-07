@@ -1,41 +1,66 @@
-/* テーマカラーを緑色に設定 */
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
 body {
-    border-top: 5px solid #4CAF50;
-    border-bottom: 5px solid #4CAF50;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f7; /* Light green background */
+    color: #333;
 }
 
-/* リンクの色を緑色に設定 */
-a {
-    color: #4CAF50;
+header {
+    background-color: #4caf50; /* Green header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
-/* リンクホバー時の色を明るい緑色に設定 */
-a:hover {
-    color: #8BC34A;
-}
-/* バックカラーを白色に設定 */
-body {
-    background: #fff;
+nav ul {
+    list-style: none;
+    text-align: center;
 }
 
-/* テーマカラーを緑色に設定 */
-body {
-    border-top: 5px solid #4CAF50;
-    border-bottom: 5px solid #4CAF50;
-    color: #333; /* テキストの色を黒に設定 */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-/* リンクの色を緑色に設定 */
-a {
-    color: #4CAF50;
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
 
-/* リンクホバー時の色を明るい緑色に設定 */
-a:hover {
-    color: #8BC34A;
+nav a:hover {
+    color: #2e7d32; /* Darker green on hover */
 }
 
-/* バックカラーを白色に設定 */
-body {
-    background: #fff;
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4caf50; /* Green heading */
+}
+
+footer {
+    background-color: #4caf50; /* Green footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
