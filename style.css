@@ -1,66 +1,180 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* cmd + space でコード整形 */
+
+body
+{
+    font-family: 'Avenir Next';
 }
 
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8f7; /* Light green background */
-    color: #333;
+span
+{
+    color: rgb(206, 0, 0);
 }
 
-header {
-    background-color: #4caf50; /* Green header */
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
+li
+{
     list-style: none;
-    text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.header
+{
+    height: 100px;
+
+    color: white;
+    border-bottom: 5px solid #704427;
+    background-color: #486b00;
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
+.header-logo
+{
+    font-size: 40px;
+
+    float: left;
+
+    padding: 30px 50px;
 }
 
-nav a:hover {
-    color: #2e7d32; /* Darker green on hover */
+.header-list
+{
+    float: right;
 }
 
-main {
+.header-list li
+{
+    font-size: 20px;
+
+    float: left;
+
+    padding: 40px 10px 10px 10px;
+}
+
+.main
+{
+    font-size: 50px;
+
+    height: 1300px;
+    padding: 50px 50px;
+
+    color: #2e4600;
+    background-color: rgb(243, 255, 236);
+}
+
+.copy-container h1
+{
+    font-size: 80px;
+
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.copy-container h2
+{
+    font-size: 40px;
+
+    margin-top: 0;
+    margin-left: 20px;
+    padding-left: 50px;
+}
+
+.section-title
+{
+    border-bottom: 2px solid #a2c523;
+}
+
+.contents
+{
+    height: 400px;
+    margin-top: 100px;
+}
+
+.contents h3
+{
+    font-size: 30px;
+
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.contents-item
+{
+    float: left;
+
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 50px;
+
+    border: 2px solid #a2c523;
+}
+
+.contents-item p
+{
+    font-size: 20px;
+}
+
+.contact-form h3
+{
+    font-size: 30px;
+
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.contact-form p
+{
+    font-size: 20px;
+
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+input,
+textarea
+{
+    font-size: 20px;
+
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 10px;
+
+    color: #2e4600;
+    border: 1px solic #2e4600;
+}
+
+.contact-submit
+{
+    font-size: 20px;
+
+    margin-left: 20px;
+
+    color: #2e4600;
+    background-color: white;
+}
+
+.footer
+{
+    height: 100px;
     padding: 20px;
+
+    color: white;
+    background-color: #2e4600;
 }
 
-section {
-    margin-bottom: 20px;
+.footer-logo
+{
+    font-size: 20px;
+
+    float: left;
 }
 
-h2 {
-    color: #4caf50; /* Green heading */
+.footer-list
+{
+    float: right;
 }
 
-footer {
-    background-color: #4caf50; /* Green footer */
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
+.footer-list li
+{
+    font-size: 20px;
 
-/* Responsive Design */
-@media only screen and (max-width: 600px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
+    padding-bottom: 20px;
 }
