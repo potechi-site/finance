@@ -33,23 +33,44 @@ header {
     font-size: 60px;
     line-height: 120px;
 }
-body {
-    background-color: #ffffff;
-}
 .copy-container {
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 40px;
 }
 .copy-title {
     height: 40px;
     font-size: 20px;
 }
 .contents {
-    height: 500px;
     padding: 0 20px;
+    overflow: hidden;
+}
+.contents h1 {
+    font-size: 30px;
+    display: inline;
+    color: #2e4600;
+    border-bottom: 5px solid #a2c523;
+}
+.contents h2 {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 0px;
+    color: #2e4600;
+    background-color: #a2c523;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.contents h3 {
+    font-size: 20px;
+    color: #486b00;
+}
+.contents p {
+    text-indent: 2em;
 }
 .section-title {
+    margin-top: 40px;
     margin-bottom: 40px;
     padding-bottom: 20px;
     border-bottom: 5px solid #7d4427;
@@ -68,6 +89,7 @@ body {
 .contents-item {
     float: left;
     width: 25%;
+    margin-bottom: 40px;
 }
 .contents-item2 {
     width: 90%;
@@ -76,12 +98,15 @@ body {
     background-color: #a2c523;
     background-color: #a2c523;
 }
+.contents-item2 p {
+    text-indent: 0;
+}
 .contents-item img {
     display: block;
     width: 80%;
     margin: 20px auto;
     border-radius: 20px;
-    background-color: white;
+    background-color: #fff;
 }
 .contents-item p {
     padding: 0 10px;
@@ -93,5 +118,8 @@ footer {
     padding: 10px;
     border-top: 10px solid #a2c523;
     background-color: #7d4427;
-    color: white;
+    color: #fff;
+}
+footer a {
+    color: #fff;
 }
