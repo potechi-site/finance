@@ -1,9 +1,11 @@
+/* shift + option + s でコード整形 */
+
 header, body, footer {
     margin: 0;
     padding: 0;
     color: #486b00;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 48px;
     font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -13,31 +15,31 @@ a {
 }
 
 header {
-    height: 120px;
-    padding: 20px;
-    border-bottom: 10px solid #486b00;
+    height: 240px;
+    padding: 40px;
+    border-bottom: 20px solid #486b00;
     background-color: #a2c523;
 }
 
 .header-logo {
     float: left;
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
+    width: 240px;
+    height: 240px;
+    border-radius: 40px;
     background-color: #486b00;
 }
 
 .header-logo img {
-    width: 120px;
-    height: 120px;
+    width: 240px;
+    height: 240px;
 }
 
 .header-title {
     float: left;
-    padding: 0 20px;
+    padding: 0 40px;
     color: #486b00;
-    font-size: 60px;
-    line-height: 120px;
+    font-size: 120px;
+    line-height: 240px;
 }
 
 body {
@@ -46,9 +48,9 @@ body {
 }
 
 footer {
-    height: 160px;
-    padding: 10px;
-    border-top: 10px solid #a2c523;
+    height: 320px;
+    padding: 20px;
+    border-top: 20px solid #a2c523;
     background-color: #7d4427;
     color: white;
 }
