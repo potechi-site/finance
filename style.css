@@ -1,5 +1,3 @@
-/* shift + option + s でコード整形 */
-
 header, body, footer {
     margin: 0;
     padding: 0;
@@ -8,19 +6,16 @@ header, body, footer {
     font-size: 48px;
     font-family: "IBM Plex Sans", sans-serif;
 }
-
 a {
     color: #486b00;
     text-decoration: none;
 }
-
 header {
     height: 240px;
     padding: 40px;
     border-bottom: 20px solid #486b00;
     background-color: #a2c523;
 }
-
 .header-logo {
     float: left;
     width: 240px;
@@ -28,12 +23,10 @@ header {
     border-radius: 40px;
     background-color: #486b00;
 }
-
 .header-logo img {
     width: 240px;
     height: 240px;
 }
-
 .header-title {
     float: left;
     padding: 0 40px;
@@ -41,12 +34,10 @@ header {
     font-size: 120px;
     line-height: 240px;
 }
-
 body {
     height: auto;
     background-color: #ffffff;
 }
-
 footer {
     height: 320px;
     padding: 20px;
