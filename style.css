@@ -1,6 +1,5 @@
 header, body, footer {
     margin: 0;
-    padding: 0;
     color: #486b00;
     font-weight: bold;
     font-size: 20px;
@@ -35,8 +34,59 @@ header {
     line-height: 120px;
 }
 body {
-    height: auto;
     background-color: #ffffff;
+}
+.copy-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.copy-title {
+    height: 40px;
+    font-size: 20px;
+}
+.contents {
+    height: 500px;
+    padding: 0 20px;
+}
+.section-title {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #7d4427;
+}
+.section-title h3 {
+    justify-content: center;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #a2c523;
+    color: #2e4600;
+    font-size: 25px;
+    text-align: center;
+}
+.contents-item {
+    float: left;
+    width: 25%;
+}
+.contents-item2 {
+    width: 90%;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #a2c523;
+    background-color: #a2c523;
+}
+.contents-item img {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+.contents-item p {
+    padding: 0 10px;
+    color: #2e4600;
+    text-align: center;
 }
 footer {
     height: 160px;
