@@ -5,7 +5,7 @@ header, body, footer {
     padding: 0;
     color: #486b00;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     font-family: "IBM Plex Sans", sans-serif;
 }
 a {
@@ -13,37 +13,37 @@ a {
     text-decoration: none;
 }
 header {
-    height: 60px;
-    padding: 10px;
-    border-bottom: 4px solid #486b00;
+    height: 120px;
+    padding: 20px;
+    border-bottom: 10px solid #486b00;
     background-color: #a2c523;
 }
 .header-logo {
     float: left;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
     background-color: #486b00;
 }
 .header-logo img {
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
 }
 .header-title {
     float: left;
-    padding: 0 10px;
+    padding: 0 20px;
     color: #486b00;
-    font-size: 30px;
-    line-height: 60px;
+    font-size: 60px;
+    line-height: 120px;
 }
 body {
     height: auto;
     background-color: #ffffff;
 }
 footer {
-    height: 80px;
-    padding: 5px;
-    border-top: 4px solid #a2c523;
+    height: 160px;
+    padding: 10px;
+    border-top: 10px solid #a2c523;
     background-color: #7d4427;
     color: white;
 }
